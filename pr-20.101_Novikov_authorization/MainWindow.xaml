@@ -1,0 +1,17 @@
+﻿<Window x:Class="pr_20._101_Novikov_authorization.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:pr_20._101_Novikov_authorization"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="400" Width="400">
+    <Grid>
+        <Button Content="Войти" HorizontalAlignment="Center" Margin="0,320,0,0" VerticalAlignment="Top" Width="100" Click="Button_Click"/>
+        <TextBox Name="txtBoxLogin" HorizontalAlignment="Center" Margin="0,157,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="182" TextChanged="TextBox_TextChanged" Height="31"/>
+        <TextBox   Name="txtBoxPassword" HorizontalAlignment="Center" Margin="0,217,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="182" TextChanged="TextBox_TextChanged" Height="31"/>
+        <Label Content="Логин" HorizontalAlignment="Left" Margin="109,126,0,0" VerticalAlignment="Top"/>
+        <Label Content="Пароль&#xD;&#xA;" HorizontalAlignment="Left" Margin="109,193,0,0" VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>
